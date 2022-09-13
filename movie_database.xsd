@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="database">
+        <complexType>
+            <sequence>
+                <element name="Movie" minOccurs="1">
+                    <complexType>
+                        <attribute name="Movie_Name" type="string" use="required"/>
+                        <attribute name="Release_Date" type="gYear" use="required"/>
+                        <element name="Cast_Member" minOccurs="1">
+                            <complexType>
+                                <attribute name="Cast_Name" use="required" type="string"/>
+                                <attribute name="Role" use="required" type="string"/>
+                                <element name="Awards" minOccurs="0">
+                                    <complexType>
+                                        <attribute name="Award_Name" type="string" use="required"/>
+                                        <attribute name="Award_Date" type="date" use="required"/>
+                                    </complexType>
+                                </element>
+                            </complexType>
+                        </element>
+                        <element name="Genre" type="string" minOccurs="1"/>
+                        <element name="Movie_Theatre" minOccurs="0">
+                            <complexType>
+                                <element name="Shows" minOccurs="1">
+                                    <complexType>
+                                        <attribute name="Location" use="required" type="string"/>
+                                        <attribute name="Screen_Name" use="required" type="string"/>
+                                        <attribute name="Show_Time" use="required" type="dateTime"/>
+                                    </complexType>
+                                </element>
+                            </complexType>
+                        </element>
+                        <element name="Summary" type="string" minOccurs="1"/>
+                        <element name="Critique">
+                            <complexType>
+                                <attribute name="rating" type="float" use="optional"/>
+                                <element name="Review">
+                                    <complexType>
+                                        <attribute name="User_Name" type="string" use="required"/>
+                                        <element name="Comments" type="string"/>
+                                    </complexType>
+                                </element>
+                            </complexType>
+                        </element>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>

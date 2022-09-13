@@ -1,0 +1,19 @@
+Part-4:
+
+1) Find all movies that have been nominated for both Academy and Golden Globe awards.
+    /Database/Movie[./Cast_Member/Awards/@Award_Name='Academy Award' and ./Cast_Member/Awards/@Award_Name='Golden Globe']/@Movie_Name
+2) Find all directors that won the Academy award since 2015.
+    //Cast_Member[Awards[@Award_Name='Academy Award' and @Award_Year >= 2015] and @Role='director']/@Cast_Name
+3) Find all movies from “Drama” genre with a rating of 7.5 or greater.
+    //Movie[Genre='Drama' and Critique/@rating>7.5]/@Movie_Name
+4) Find all movies playing in Phoenix directed by “XYZ”.
+    //Movie[Movie_Theatre/Shows/@Location='Phoenix' and Cast_Member[@Role='director' and @Cast_Name='Damien Chazelle']]/@Movie_Name
+5) Find all movies with actor “ABC” and from “Comedy” genre.
+    //Movie[Genre='Comedy' and Cast_Member[@Cast_Name='Ryan Gosling' and @Role='actor']]/@Movie_Name
+6) Find all movies after year 2000 with director information missing.
+    //Movie[@Release_Date >= 2000 and count(Cast_Member[@Role='director']) = 0 ]/@Movie_Name
+
+
+Part-5:
+
+I would separate cast into multiple elements like actor, actress and director to simplify queries. Also, I would create a separate user element instead of just an attribute in Review element.

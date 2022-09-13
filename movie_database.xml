@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Database>
+    <Movie Movie_Name="Shawshank Redemption" Release_Date="1994">
+        <Cast_Member Cast_Name="Morgan Freeman" Role="actor">
+            <Awards Award_Name="Golden Globe" Award_Year="1995"/>
+        </Cast_Member>
+        <Cast_Member Cast_Name="Frank Darabont" Role="director">
+            <Awards Award_Year="1995" Award_Name="Academy Award"/>
+            <Awards Award_Year="2005" Award_Name="Academy"/>
+        </Cast_Member>
+        <Genre>Drama</Genre>
+        <Summary>
+            Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.
+        </Summary>
+        <Critique rating="9.3">
+            <Review User_Name="Vardhan">
+                <Comments>
+                    Great Movie!!
+                </Comments>
+            </Review>
+        </Critique>
+    </Movie>
+    <Movie Movie_Name="La La Land" Release_Date="2016">
+        <Cast_Member Cast_Name="Ryan Gosling" Role="actor">
+            <Awards Award_Name="Academy Award" Award_Year="2018"/>
+        </Cast_Member>
+        <Cast_Member Cast_Name="Emma Stone" Role="actress">
+            <Awards Award_Name="Golden Globe" Award_Year="2017"/>
+        </Cast_Member>
+        <Cast_Member Cast_Name="Damien Chazelle" Role="director">
+            <Awards Award_Name="Academy Award" Award_Year="2017"/>
+        </Cast_Member>
+        <Movie_Theatre>
+            GVK One
+            <Shows Screen_Name="Screen 1" Screen_Time="2016-10-10T10:30:00" Location="Phoenix">
+            </Shows>
+        </Movie_Theatre>
+        <Genre>Comedy</Genre>
+        <Genre>Musical</Genre>
+        <Summary>
+            Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. But as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.
+        </Summary>
+        <Critique rating="8.1">
+            <Review User_Name="Harsha">
+                <Comments>
+                    Amazing Picture
+                </Comments>
+            </Review>
+        </Critique>
+    </Movie>
+    <Movie Movie_Name="Finding Nemo" Release_Date="2003">
+        <Cast_Member Cast_Name="Alexander Gould" Role="actor">
+            <Awards Award_Name="Academy Award" Award_Year="2005"/>
+        </Cast_Member>
+        <Cast_Member Cast_Name="Albert Brooks" Role="actor">
+            <Awards Award_Year="2006" Award_Name="Oscar"/>
+        </Cast_Member>
+        <Genre>Comedy</Genre>
+        <Genre>Kids</Genre>
+        <Genre>Drama</Genre>
+        <Summary>
+            Marlin (Albert Brooks), a clown fish, is overly cautious with his son, Nemo (Alexander Gould), who has a foreshortened fin. When Nemo swims too close to the surface to prove himself, he is caught by a diver, and horrified Marlin must set out to find him. A blue reef fish named Dory (Ellen DeGeneres) -- who has a really short memory -- joins Marlin and complicates the encounters with sharks, jellyfish, and a host of ocean dangers. Meanwhile, Nemo plots his escape from a dentist's fish tank.
+        </Summary>
+        <Critique rating="9.3">
+            <Review User_Name="Vardhan">
+                <Comments>
+                    Great Movie!!
+                </Comments>
+            </Review>
+        </Critique>
+    </Movie>
+</Database>
