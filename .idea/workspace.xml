@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dc1c522-e451-47ef-84aa-6de281dff266" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.git/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.git/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +42,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/.git" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/.git" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,7 +57,7 @@
       <workItem from="1662665952223" duration="607000" />
       <workItem from="1663028956753" duration="2006000" />
       <workItem from="1663030972168" duration="16053000" />
-      <workItem from="1663085530635" duration="481000" />
+      <workItem from="1663085530635" duration="535000" />
     </task>
     <servers />
   </component>
